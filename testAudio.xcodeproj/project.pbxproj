@@ -15,6 +15,8 @@
 		CE76E1701C7B389200B8EAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE76E16E1C7B389200B8EAEC /* LaunchScreen.storyboard */; };
 		CE76E17B1C7B389200B8EAEC /* testAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76E17A1C7B389200B8EAEC /* testAudioTests.swift */; };
 		CE76E1861C7B389200B8EAEC /* testAudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76E1851C7B389200B8EAEC /* testAudioUITests.swift */; };
+		CE76E1941C7B38A100B8EAEC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE76E1931C7B38A100B8EAEC /* AVFoundation.framework */; };
+		CE76E1981C7B42CF00B8EAEC /* burn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE76E1971C7B42CF00B8EAEC /* burn.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CE76E1811C7B389200B8EAEC /* testAudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testAudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE76E1851C7B389200B8EAEC /* testAudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAudioUITests.swift; sourceTree = "<group>"; };
 		CE76E1871C7B389200B8EAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE76E1931C7B38A100B8EAEC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CE76E1971C7B42CF00B8EAEC /* burn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = burn.mp3; path = ../../../../../Desktop/burn.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE76E1941C7B38A100B8EAEC /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,7 @@
 		CE76E1561C7B389100B8EAEC = {
 			isa = PBXGroup;
 			children = (
+				CE76E1931C7B38A100B8EAEC /* AVFoundation.framework */,
 				CE76E1611C7B389100B8EAEC /* testAudio */,
 				CE76E1791C7B389200B8EAEC /* testAudioTests */,
 				CE76E1841C7B389200B8EAEC /* testAudioUITests */,
@@ -100,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				CE76E1621C7B389100B8EAEC /* AppDelegate.swift */,
+				CE76E1971C7B42CF00B8EAEC /* burn.mp3 */,
 				CE76E1641C7B389100B8EAEC /* ViewController.swift */,
 				CE76E1661C7B389100B8EAEC /* Main.storyboard */,
 				CE76E16C1C7B389200B8EAEC /* Assets.xcassets */,
@@ -233,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE76E1701C7B389200B8EAEC /* LaunchScreen.storyboard in Resources */,
+				CE76E1981C7B42CF00B8EAEC /* burn.mp3 in Resources */,
 				CE76E16D1C7B389200B8EAEC /* Assets.xcassets in Resources */,
 				CE76E1681C7B389100B8EAEC /* Main.storyboard in Resources */,
 			);
@@ -486,6 +494,7 @@
 				CE76E18C1C7B389200B8EAEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE76E18D1C7B389200B8EAEC /* Build configuration list for PBXNativeTarget "testAudioTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +503,7 @@
 				CE76E18F1C7B389200B8EAEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE76E1901C7B389200B8EAEC /* Build configuration list for PBXNativeTarget "testAudioUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +512,7 @@
 				CE76E1921C7B389200B8EAEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
