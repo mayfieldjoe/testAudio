@@ -11,13 +11,15 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+   
     var audioPlayer = AVAudioPlayer()
     
-    var audioPath = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("burn", ofType: "mp3")!)
+    var audioPath = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Genso", ofType: "mp3")!)
     
     var playPauseBtn = UIBarButtonItem()
     
     var musicPaused: Bool = false
+    
     
 
     @IBOutlet weak var toolbar: UIToolbar!
